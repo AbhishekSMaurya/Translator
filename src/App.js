@@ -187,7 +187,7 @@ function Randomizer() {
     <div className="max-w-3xl mx-auto p-6">
       <div className="bg-white/90 rounded-2xl shadow p-6">
         <h2 className="text-2xl font-bold mb-3">Random String Generator</h2>
-        <p className="text-sm text-gray-600 mb-4">Uses useState, useCallback & useEffect under the hood.</p>
+      
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
           <div>
@@ -223,7 +223,6 @@ function About() {
           <li>Translator using RapidAPI</li>
           <li>A random string generator demonstrating hooks (useState, useCallback, useEffect)</li>
         </ul>
-        <p className="mt-4 text-xs text-gray-500">Split components into files, add tests, and you'll have a production-ready repo you can push to GitHub.</p>
       </div>
     </div>
   )
