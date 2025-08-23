@@ -121,7 +121,7 @@ function Home() {
           className="w-full p-3 border rounded-lg resize-y min-h-[120px] mb-4"
         />
 
-        <div className="flex gap-3 items-center mb-4">
+        <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center mb-4">
           <label className="text-sm">Target language</label>
           <select value={target} onChange={(e) => setTarget(e.target.value)} className="p-2 border rounded-md">
             <option value="es">Spanish (es)</option>
@@ -191,7 +191,7 @@ function Randomizer() {
           </div>
           <div className="md:col-span-2">
             <label className="text-sm block mb-1">Include symbols</label>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               <button onClick={() => setIncludeSymbols(s => !s)} className={`px-3 py-2 rounded ${includeSymbols ? 'bg-green-500 text-white' : 'border'}`}>
                 {includeSymbols ? 'YES' : 'NO'}
               </button>
