@@ -216,7 +216,6 @@ function About() {
         <ul className="list-disc ml-5 text-sm space-y-1">
           <li>Client-side routing with <code>react-router-dom</code></li>
           <li>Translator using RapidAPI</li>
-          <li>A random string generator demonstrating hooks (useState, useCallback, useEffect)</li>
         </ul>
       </div>
     </div>
