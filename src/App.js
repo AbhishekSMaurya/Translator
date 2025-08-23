@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="bg-gradient-to-r from-indigo-600 to-pink-500 text-white p-4 shadow-md">
       <div className="max-w-5xl mx-auto flex items-center justify-between">
         <Link to="/" className="font-extrabold text-lg">LinguaForge</Link>
-        <div className="space-x-3">
+        <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-2 sm:space-y-0 mt-2 sm:mt-0">
           <NavLink to="/">Translator</NavLink>
           <NavLink to="/random">Random Generator</NavLink>
           <NavLink to="/about">About</NavLink>
