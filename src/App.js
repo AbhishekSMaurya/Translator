@@ -192,10 +192,10 @@ function Randomizer() {
           <div className="md:col-span-2">
             <label className="text-sm block mb-1">Include symbols</label>
             <div className="flex flex-wrap items-center gap-3">
-              <button onClick={() => setIncludeSymbols(s => !s)} className={`px-3 py-2 rounded ${includeSymbols ? 'bg-green-500 text-white' : 'border'}`}>
+              <button onClick={() => setIncludeSymbols(s => !s)} className={`px-3 py-2 rounded ${includeSymbols ? 'px-6 py-2 rounded-md font-bold bg-gradient-to-r from-teal-400 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 transition transform hover:scale-105 text-white' : 'border'}`}>
                 {includeSymbols ? 'YES' : 'NO'}
               </button>
-              <button onClick={generate} className="px-3 py-2 rounded bg-indigo-600 text-white">Generate</button>
+              <button onClick={generate} className="px-6 py-2 rounded-md font-semibold text-white bg-gradient-to-r from-blue-500 to-violet-600 hover:from-blue-600 hover:to-violet-700 transition transform hover:scale-105">Generate</button>
               <button onClick={() => { if (navigator.clipboard) navigator.clipboard.writeText(result).catch(() => { }) }} className="px-3 py-2 rounded border">Copy</button>
             </div>
           </div>
